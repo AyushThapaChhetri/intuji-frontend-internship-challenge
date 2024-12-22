@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.outer-page4{
+    position: absolute;
+    
+    width: 100%;
+    height: 685px;
+    top: 2482px;
+}
+.inner-page4{
+   
+    width: 1171px;
+    height: 685px;
+    display: flex;
+}
+.inner-page4-first{
+   
+    width: 479px;
+    height: 463px;
+    margin: 182px 103px 40px 121px;
+}
+.first-content1{
+    width: 116px;
+    height: 19px;
+    margin-bottom: 13px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.12px;
+    text-align: left;
+    color: #3734A9;
+}
+.first-content2{
+    width: 439px;
+    height: 120px;
+    margin-bottom: 14px;
+    font-family: Manrope;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+.first-content3{
+    width: 421px;
+    height: 90px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+   font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 35px;     
+}
+.first-content4{
+    width: 479px;
+    height: 172px;
+}
+.content4-c4Container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 479px;
+    height: 152px;
+    margin-top:35px;
+    border-radius: 20px;
+    background: #C4C4C4;
+}
+.content4-circle{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background: black;
+    left: 30px;
+    bottom: 128px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content4-para{
+    
+    width: 426px;
+    height: 44px;
+    margin:38px 19px 14px 34px;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+.content4-para-designer{
+    width: 187px;
+    height: 22px;
+    margin:0 258px 38px 38px;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+.inner-page4-second{
+    width: 589px;
+    height: 685px;
+    right: 148px;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 486px;
+    height: 540px;
+    border-radius: 10px;
+    background: #DBF1FA;
+    margin-top: 145px;
+    margin-left: 103px;
+
+}
+.second-container-pic1{
+    position: absolute;
+}
+.linediv{
+    right: 429.61px;
+    bottom: 360.83px;
+}
+.handdiv{
+    bottom: 0px;
+    right: 130px;
+}
+.chartdiv{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 337px;
+    height: 232.99px;
+    right: 252px;
+    top: 243px;
+    border-radius: 10px;
+    box-shadow: 
+    0px 2.57px 4.37px 0px #00000002, 
+    0px 11.3px 9.04px 0px #00000003, 
+    0px 27.74px 18.03px 0px #00000004, 
+    0px 53.42px 35.34px 0px #00000005, 
+    0px 89.89px 64.98px 0px #00000006, 
+    0px 138.68px 110.95px 0px #00000008;
+
+}
+.chartdiv-para1{
+    width: 128.21px;
+    height: 64.67px;    
+    font-family: Manrope;
+    font-size: 19.42px;
+    font-weight: 400;
+    line-height: 26.52px;
+    text-align: center;
+    margin: 23.58px 189.37px 10.22px 19.92px;
+    
+
+}
+.chartdiv-para1-cont2{
+    display: flex;
+    
+}
+.para1-money{
+    width: 77px;
+    height: 30px;
+    margin-right: 3.44px;
+    font-family: Manrope;
+    font-size: 22.19px;
+    font-weight: 700;
+    line-height: 30.31px;
+    text-align: left;
+    color: #000000;
+
+}
+.para1-moneyP{
+    padding-top:3px;
+    width: 45px;
+    height: 25px;
+    font-family: Manrope;
+    font-size: 18.03px;
+    font-weight: 400;
+    line-height: 24.63px;
+    text-align: left;
+    color: #00E1F0;
+}
+.chart{
+    width: 260.72px;
+    height: 99.98px;
+}
+.img-cont{
+    display: flex;
+    margin-left: 19.42px;
+    margin-right: 10.58px;
+}

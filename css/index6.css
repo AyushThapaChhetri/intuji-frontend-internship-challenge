@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.outer-page6{
+    position: absolute;
+    width: 1442px;
+    height: 635px;
+    top: 4246px;
+    left: 119px;
+}
+.outer-pg6-imgCurver{
+    position: absolute;
+   left: 959.01px;
+   top: 31.04px; 
+}
+
+.inner-page6-Content1{
+    width: 570px;
+    height: 161px;
+    margin-bottom: 44px;
+   
+}
+.pag6-title1{
+    width: 426px;
+    height: 66px;
+    font-family: Manrope;
+    font-size: 71px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-bottom: 37px;
+     
+}
+.pag6-para1{
+    width: 570px;
+    height: 58px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+}
+.inner-page6-Content2{
+    display: flex;
+    justify-content: space-between;
+}
+.pg6-cards{
+    display:flex;
+    width: 699px;
+    height: 430px;
+}
+.p6crd{
+    display: flex;
+    width: 699px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #CFCFCF;
+}
+.p6crd-circle{
+    position: absolute;
+    left: 35px;
+    bottom: 373px;
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+.p6crd-outerbox1{
+    
+    margin: 50px 26px 180px 45px;
+    width: 368px;
+    height: 243px;
+}
+.p6crd-para{
+    width: 368px;
+    height: 180px;
+    margin-bottom:41px;
+    font-family: Manrope;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+.p6crd-paraDesginer{
+    width: 249px;
+    height: 22px;
+    top: 4779px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.p6crd-outerbox2{
+    margin: 24px 25px 26px 0;
+}

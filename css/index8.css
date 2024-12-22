@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.outer-page8{
+    position: absolute;
+    width: 100%;
+    height: 1035px;
+    top: 5288px;
+}
+.inner-page8{
+    border: 0;
+    margin:147px 0 0 119px;
+    width: 1204px;
+    height: 888px;
+
+}
+.page8-contents{
+    width: 435px;
+    height: 66px;
+    margin-bottom: 72px;
+    font-family: Manrope;
+    font-size: 71px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #000000;
+}
+.page8-contents2{
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(240, 242, 243);
+    margin-bottom: 29px;
+    
+}
+.p8-item1{
+    margin: 34px 148px 53px 28px;
+}
+.p8-item1-para1{
+    margin: 0 0 6px 0;
+    width: 146px;
+    height: 36px;font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color:#000000;
+
+}
+.p8-item1-para2{
+    width: 524px;
+    height: 72px;
+    font-family: Manrope;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 68px;
+}
+.p8-readmore{
+    display: flex;
+}
+.p8-item1-para3{
+    width: 81px;
+    height: 16px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    margin-right: 10px;
+}
+.page8-contents3{
+    display: flex;
+    justify-content: space-between;
+
+}
+.p8-cnt3{
+    width: 382px;
+    height: 436px;
+     
+}
+
+.p8-cnt3-container{
+    background: rgb(240, 242, 243);
+    width: 382px;
+    height: 234px;
+    top: 5886px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    padding:25px 40px 58px 32px;
+}
+
+.p8-cnt3-para1{
+    width: 146px;
+    height: 36px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    margin-bottom: 7px;
+
+}
+.p8-cnt3-para2{
+    width: 310px;
+    height: 108px;
+    font-family: Manrope;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+
+}
+
+.p8-imgCrd{
+
+    width: 382px;
+    height: 202px;
+    top: 6120px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+}

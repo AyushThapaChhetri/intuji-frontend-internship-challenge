@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.outer-page7{
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    top: 5031px;
+}
+.hz-add{
+    background: #3734A9;
+    display: flex;
+}
+.hz-add-box1{
+    font-family: Manrope;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 143px;
+    height: 93px;
+    margin: 82px 29px 81px 149px;
+
+}
+.hz-add-box2{
+    height: 251.5px;
+    border: 2px solid #3D3D3D;
+    margin-right:65px;
+}
+.hz-add-box3{
+    margin-right: 126px;
+}
+.page7-box3-para{
+    font-family: Manrope;
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 143px;
+    height: 72px;
+    margin-bottom: 21px;
+}
+.p7bx{
+    margin-top: 69px;
+}
+.p7bx-img{
+    display: flex;
+}
+.page7-items-para{
+    margin-left: 16px;
+    font-family: Manrope;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 214px;
+    height: 31px;
+
+}
+.hz-add-box4{
+    margin-right: 87px;
+}
+.hz-add-box5{
+    margin-right: 97px;
+}
+.hz-add-box6{
+    margin-top: 20px;
+}
