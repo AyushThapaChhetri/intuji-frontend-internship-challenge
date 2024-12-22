@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.outer-page2{
+    /* margin-top: 20px; */
+    position: absolute;
+    /* border: solid rgb(201, 35, 35) 4px; */
+    border: 0;
+    width: 100%;
+    top: calc(860px + 239px);
+}
+.inner-page2-first{
+    display: flex;
+    margin-top: 72px;
+    margin-left: 119px;
+}
+.container-portfolio{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: solid black 2px; */
+    border: 0;
+    width: 646px;
+    height: 209px;
+}
+.container-portfolio-automated{
+    /* border: solid red 2px; */
+    border: none;
+    font-family: "Manrope",serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    /* text-align: left; */
+    /* text-underline-position: from-font;
+    text-decoration-skip-ink: none; */ 
+    width: 646px;
+    height: 132px;
+    
+   
+
+}
+.container-portfolio-automated-para{
+    
+    /* border: solid green 2px; */
+    border: none;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    /* text-decoration: underline;
+    text-decoration-color: purple;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+    margin: 19px 197px 0 0;
+    width: 449px;
+    height: 58px;
+
+
+}
+.container-Designer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px 0 123px;
+    /* border: solid black 2px; */
+    border: 0;
+    width: 402px;
+    height: 197px;
+   
+
+}
+.container-Designer-inner-Details{
+    position: relative;
+    /* margin-top: 20px; */
+    width: 402px;
+    height: 177px;
+    top: 20px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0.3px;
+    background-color:#C4C4C4 ;
+
+
+}
+.container-Designer-circle{
+    position: absolute;
+    top: -20px;
+    left:30px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.quot-img{
+    width: 13.97px;
+    height: 12.81px;
+}
+.container-Designer-info{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    width: 334px;
+    height: 66px;
+    margin: 38px 34px 18px 34px;
+    /* text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+
+
+}
+.container-Designer-name{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    /* text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+    width: 187px;
+    height: 22px;
+    margin: 0 181px 33px 34px;
+
+
+
+}
+.inner-page2-second{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid black 2px; */
+    border: 0;
+    width: 1202px;
+    height: 382px;
+    margin: 71px 117px 0 121px;
+
+}
+.inner-page2-second-box{
+    border: 1px solid #DBE4E9;
+    width: 380px;
+    height: 382px;
+    border-radius: 20px;
+}
+
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    margin:21px 333px 20px 22px;
+    width: 25px;
+    height: 30px;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30.05px;
+    text-align: left;
+    /* text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+
+
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 45px;
+    margin: 44px 113px 34px 155px;
+}
+.black-bar {
+    width: 39px;
+    height: 10px;
+    margin:0 11px 5px 0;
+    
+    background: black;
+}
+.colored-box {
+    width: 50px;
+    height: 30px;
+    margin:0 0 0 0;
+
+}
+.title {
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    /* text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+    margin:0px 62px 17px 42px;
+}
+.description {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    /* text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+
+   color: linear-gradient(0deg, #757095, #757095),
+    linear-gradient(0deg, #64607D, #64607D);
+    line-height: 1.5;
+    margin: 0 65px 45px 45px;
+}
+
+.blue { background: #3734A9; }
+.coral { background: #FF7F5C; }
+.orange { background: #FDBC64; }
