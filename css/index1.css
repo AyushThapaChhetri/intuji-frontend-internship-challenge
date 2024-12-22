@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;
+    color: #333; 
+    user-select: none; /* Disable text selection globally */
+    cursor: default;  /* Default cursor for all elements */
+
+}
+/* Allow text selection and caret behavior only in input and textarea fields */
+input, textarea {
+    user-select: text; /* Enable text selection */
+    cursor: text;      /* Display text cursor */
+}
+
+.outer-page1 {
+    position: relative;
+    width: 100%;
+    height: 934px; 
+    background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+}
+
+.container-nav {
+    padding-top: 38px;
+}
+
+.navbar {
+    margin: 0px 281.36px 0px 167px;
+    width: 1202px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.h1 {
+    flex-shrink: 0; 
+}
+
+.brand-link {
+    text-decoration: none; 
+}
+
+.brand {
+    color: #000000; 
+}
+
+.nav-items{
+    display: flex;
+    flex: 1;
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px; /* 1rem = 16px */
+    list-style-type: none;
+    font-family: "Manrope",serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+.dropdown {
+    position: relative; 
+    z-index: 10;
+}
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #aef2ff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 160px; 
+    padding: 8px 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    padding: 8px 16px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1; 
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 12px; 
+}
+.btn-signin{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.btn-StartFree{
+    border: 0;
+    background-color: #4F46BA;
+    color: #FFFFFF;
+    width: 137px;
+    height: 52px;
+}
+
+.btn-StartFree:hover{
+    background-color:#0c0094;
+    cursor: pointer;
+    transition: background-color 1.5s ease;
+}
+
+
+.container-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 121px;      
+    top: 241px;       
+    right: 673px;     
+    bottom: 172px;    
+    width: 646px;     
+    height: 521px;   
+}
+
+.central1-image {
+    position: absolute;
+    width: 509px;      
+    height: 966px;     
+    top: 71px;         
+    left: 743px;       
+    right: 188px;      
+    bottom: 103px;    
+    gap: 0px;
+    opacity: 0px;
+}
+.img-62{
+    position: absolute;
+    top: 187px;
+    right: 0px;
+}
+.img-24{
+    position: absolute;
+    top: 700px;
+    left: 0px;
+}
+.bluespotImg{
+    position: absolute;
+    top: 718px;
+    right: 0px;
+}
+.central-heading {
+    font-family: "Manrope",serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    height:240px;
+}
+
+.central-text{
+    font-family: "Manrope",serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.central1-btns{
+    display: flex;
+}
+
+.btn-GetStarted{
+    border: 0;
+    background: #3734A9;
+    width: 162px;
+    height: 60px;
+    gap: 0px;
+    border-radius: 47px;
+    opacity: 0px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.btn-HowItWorks{
+    width: 220px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Manrope;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    align-items: center;
+    padding:10px ;
+    text-underline-position: from-font;
+    list-style-type: none;
+    text-decoration: none;
+    color: #3734A9;
+
+}
+
+.play{
+    background: #22D497;
+    border-radius: 50%;
+    opacity: 0px;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+
+.features{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+   
+    
+ 
+}
+.features li {
+    display: flex;
+    align-items: center; 
+    font-family: Manrope;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #757095;
+}
+.pg1tick-circle{
+    width: 18px;
+    height: 18px;
+    background: #3734A9;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+}
+
+.inner-partners {
+    background: #F5F6F8;
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    position: absolute;
+    width: 100%;       
+    height: 239px;     
+    top: 860px; 
+        
+}
+
+.container-inner-partners-para{
+    display: flex;
+    justify-content: center;
+}
+
+.logos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.logos img{
+    margin-right: 49.56px;
+}
+
+
+
