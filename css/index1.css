@@ -320,5 +320,15 @@ input, textarea {
     margin-right: 49.56px;
 }
 
+/* hover effects in elements */
+a:hover, h1:hover, h2:hover, h3:hover, p:hover, li:hover ,div:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; 
+}
+
+button:hover, .btn:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out; 
+}
 
 
